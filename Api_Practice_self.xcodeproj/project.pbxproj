@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		9365D31A27DA3691009A5FFC /* Api_Practice_selfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D31927DA3691009A5FFC /* Api_Practice_selfApp.swift */; };
-		9365D31C27DA3691009A5FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D31B27DA3691009A5FFC /* ContentView.swift */; };
+		9365D31C27DA3691009A5FFC /* BitcoinPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D31B27DA3691009A5FFC /* BitcoinPriceView.swift */; };
 		9365D31E27DA3692009A5FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9365D31D27DA3692009A5FFC /* Assets.xcassets */; };
 		9365D32127DA3692009A5FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9365D32027DA3692009A5FFC /* Preview Assets.xcassets */; };
+		9365D32927DA3C5B009A5FFC /* PriceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D32827DA3C5B009A5FFC /* PriceDetails.swift */; };
+		9365D32B27DA3DBE009A5FFC /* BitcoinPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D32A27DA3DBE009A5FFC /* BitcoinPriceViewModel.swift */; };
+		9365D32D27DA6797009A5FFC /* CoindeskAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9365D32C27DA6797009A5FFC /* CoindeskAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9365D31627DA3691009A5FFC /* Api_Practice_self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Api_Practice_self.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9365D31927DA3691009A5FFC /* Api_Practice_selfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Practice_selfApp.swift; sourceTree = "<group>"; };
-		9365D31B27DA3691009A5FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9365D31B27DA3691009A5FFC /* BitcoinPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPriceView.swift; sourceTree = "<group>"; };
 		9365D31D27DA3692009A5FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9365D32027DA3692009A5FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9365D32827DA3C5B009A5FFC /* PriceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDetails.swift; sourceTree = "<group>"; };
+		9365D32A27DA3DBE009A5FFC /* BitcoinPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPriceViewModel.swift; sourceTree = "<group>"; };
+		9365D32C27DA6797009A5FFC /* CoindeskAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoindeskAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				9365D31927DA3691009A5FFC /* Api_Practice_selfApp.swift */,
-				9365D31B27DA3691009A5FFC /* ContentView.swift */,
+				9365D31B27DA3691009A5FFC /* BitcoinPriceView.swift */,
+				9365D32C27DA6797009A5FFC /* CoindeskAPIService.swift */,
+				9365D32827DA3C5B009A5FFC /* PriceDetails.swift */,
+				9365D32A27DA3DBE009A5FFC /* BitcoinPriceViewModel.swift */,
 				9365D31D27DA3692009A5FFC /* Assets.xcassets */,
 				9365D31F27DA3692009A5FFC /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9365D31C27DA3691009A5FFC /* ContentView.swift in Sources */,
+				9365D32D27DA6797009A5FFC /* CoindeskAPIService.swift in Sources */,
+				9365D31C27DA3691009A5FFC /* BitcoinPriceView.swift in Sources */,
+				9365D32B27DA3DBE009A5FFC /* BitcoinPriceViewModel.swift in Sources */,
+				9365D32927DA3C5B009A5FFC /* PriceDetails.swift in Sources */,
 				9365D31A27DA3691009A5FFC /* Api_Practice_selfApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

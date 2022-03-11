@@ -11,7 +11,7 @@ import SwiftUI
 struct Api_Practice_selfApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BitcoinPriceView(viewModel: BitcoinViewModel())
         }
     }
 }
